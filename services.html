@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description"
+        content="Comprehensive dental services in Houston - Teeth cleaning, whitening, implants, braces, and emergency care at Texas Dental Services.">
+    <meta name="keywords"
+        content="dental services Houston, teeth cleaning, teeth whitening, dental implants, braces, emergency dental care">
+    <title>Our Services - Texas Dental Services | Professional Dental Care in Houston</title>
+    <meta property="og:title" content="Dental Services Houston TX | Texas Dental Services">
+    <meta property="og:description" content="Comprehensive dental services including teeth cleaning, whitening, implants, orthodontics, pediatric dentistry and emergency care in Houston, TX.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.texasdentalservices.com/services/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dental Services Houston TX | Texas Dental Services">
+    <meta name="twitter:description" content="Comprehensive dental services including teeth cleaning, whitening, implants, orthodontics, pediatric dentistry and emergency care in Houston, TX.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Dental Services","url":"https://www.texasdentalservices.com/services/","description":"Comprehensive dental services in Houston TX"}</script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 5C11.716 5 5 11.716 5 20C5 28.284 11.716 35 20 35C28.284 35 35 28.284 35 20C35 11.716 28.284 5 20 5Z"
+                            fill="#4A90E2" />
+                        <path
+                            d="M20 12C15.582 12 12 15.582 12 20C12 24.418 15.582 28 20 28C24.418 28 28 24.418 28 20C28 15.582 24.418 12 20 12Z"
+                            fill="white" />
+                        <path
+                            d="M20 15C17.239 15 15 17.239 15 20C15 22.761 17.239 25 20 25C22.761 25 25 22.761 25 20C25 17.239 22.761 15 20 15Z"
+                            fill="#4A90E2" />
+                    </svg>
+                    <span>Texas Dental Services</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="admin.html" class="nav-link admin-link" title="Admin Panel">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M19.4 15C19.2669 15.3016 19.2272 15.6362 19.286 15.9606C19.3448 16.285 19.4995 16.5843 19.73 16.82L19.79 16.88C19.976 17.0657 20.1235 17.2863 20.2241 17.5291C20.3248 17.7719 20.3766 18.0322 20.3766 18.295C20.3766 18.5578 20.3248 18.8181 20.2241 19.0609C20.1235 19.3037 19.976 19.5243 19.79 19.71C19.6043 19.896 19.3837 20.0435 19.1409 20.1441C18.8981 20.2448 18.6378 20.2966 18.375 20.2966C18.1122 20.2966 17.8519 20.2448 17.6091 20.1441C17.3663 20.0435 17.1457 19.896 16.96 19.71L16.9 19.65C16.6643 19.4195 16.365 19.2648 16.0406 19.206C15.7162 19.1472 15.3816 19.1869 15.08 19.32C14.7842 19.4468 14.532 19.6572 14.3543 19.9255C14.1766 20.1938 14.0813 20.5082 14.08 20.83V21C14.08 21.5304 13.8693 22.0391 13.4942 22.4142C13.1191 22.7893 12.6104 23 12.08 23C11.5496 23 11.0409 22.7893 10.6658 22.4142C10.2907 22.0391 10.08 21.5304 10.08 21V20.91C10.0723 20.579 9.96512 20.2579 9.77251 19.9887C9.5799 19.7194 9.31074 19.5143 9 19.4C8.69838 19.2669 8.36381 19.2272 8.03941 19.286C7.71502 19.3448 7.41568 19.4995 7.18 19.73L7.12 19.79C6.93425 19.976 6.71368 20.1235 6.47088 20.2241C6.22808 20.3248 5.96783 20.3766 5.705 20.3766C5.44217 20.3766 5.18192 20.3248 4.93912 20.2241C4.69632 20.1235 4.47575 19.976 4.29 19.79C4.10405 19.6043 3.95653 19.3837 3.85588 19.1409C3.75523 18.8981 3.70343 18.6378 3.70343 18.375C3.70343 18.1122 3.75523 17.8519 3.85588 17.6091C3.95653 17.3663 4.10405 17.1457 4.29 16.96L4.35 16.9C4.58054 16.6643 4.73519 16.365 4.794 16.0406C4.85282 15.7162 4.81312 15.3816 4.68 15.08C4.55324 14.7842 4.34276 14.532 4.07447 14.3543C3.80618 14.1766 3.49179 14.0813 3.17 14.08H3C2.46957 14.08 1.96086 13.8693 1.58579 13.4942C1.21071 13.1191 1 12.6104 1 12.08C1 11.5496 1.21071 11.0409 1.58579 10.6658C1.96086 10.2907 2.46957 10.08 3 10.08H3.09C3.42099 10.0723 3.742 9.96512 4.01127 9.77251C4.28054 9.5799 4.48571 9.31074 4.6 9C4.73312 8.69838 4.77282 8.36381 4.714 8.03941C4.65519 7.71502 4.50054 7.41568 4.27 7.18L4.21 7.12C4.02405 6.93425 3.87653 6.71368 3.77588 6.47088C3.67523 6.22808 3.62343 5.96783 3.62343 5.705C3.62343 5.44217 3.67523 5.18192 3.77588 4.93912C3.87653 4.69632 4.02405 4.47575 4.21 4.29C4.39575 4.10405 4.61632 3.95653 4.85912 3.85588C5.10192 3.75523 5.36217 3.70343 5.625 3.70343C5.88783 3.70343 6.14808 3.75523 6.39088 3.85588C6.63368 3.95653 6.85425 4.10405 7.04 4.29L7.1 4.35C7.33568 4.58054 7.63502 4.73519 7.95941 4.794C8.28381 4.85282 8.61838 4.81312 8.92 4.68H9C9.29577 4.55324 9.54802 4.34276 9.72569 4.07447C9.90337 3.80618 9.99872 3.49179 10 3.17V3C10 2.46957 10.2107 1.96086 10.5858 1.58579C10.9609 1.21071 11.4696 1 12 1C12.5304 1 13.0391 1.21071 13.4142 1.58579C13.7893 1.96086 14 2.46957 14 3V3.09C14.0013 3.41179 14.0966 3.72618 14.2743 3.99447C14.452 4.26276 14.7042 4.47324 15 4.6C15.3016 4.73312 15.6362 4.77282 15.9606 4.714C16.285 4.65519 16.5843 4.50054 16.82 4.27L16.88 4.21C17.0657 4.02405 17.2863 3.87653 17.5291 3.77588C17.7719 3.67523 18.0322 3.62343 18.295 3.62343C18.5578 3.62343 18.8181 3.67523 19.0609 3.77588C19.3037 3.87653 19.5243 4.02405 19.71 4.21C19.896 4.39575 20.0435 4.61632 20.1441 4.85912C20.2448 5.10192 20.2966 5.36217 20.2966 5.625C20.2966 5.88783 20.2448 6.14808 20.1441 6.39088C20.0435 6.63368 19.896 6.85425 19.71 7.04L19.65 7.1C19.4195 7.33568 19.2648 7.63502 19.206 7.95941C19.1472 8.28381 19.1869 8.61838 19.32 8.92V9C19.4468 9.29577 19.6572 9.54802 19.9255 9.72569C20.1938 9.90337 20.5082 9.99872 20.83 10H21C21.5304 10 22.0391 10.2107 22.4142 10.5858C22.7893 10.9609 23 11.4696 23 12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14H20.91C20.5882 14.0013 20.2738 14.0966 20.0055 14.2743C19.7372 14.452 19.5268 14.7042 19.4 15Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Admin
+                    </a></li>
+                    <li><a href="tel:+17135551234" class="btn btn-primary">Call Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Our Dental Services</h1>
+            <p class="page-subtitle">Comprehensive dental care for the whole family</p>
+        </div>
+    </section>
+
+    <!-- Services Categories -->
+    <section class="services-categories">
+        <div class="container">
+            <div class="categories-grid">
+                <div class="category-card" data-target="preventive" onclick="showCategory('preventive')">
+                    <div class="category-icon">🛡️</div>
+                    <img src="services images/Preventive Dentistry.jpg" alt="Preventive Dentistry"
+                        class="category-card-img">
+                    <h3>Preventive Dentistry</h3>
+                    <p>Prevention & Cleaning</p>
+                </div>
+                <div class="category-card" data-target="restorative" onclick="showCategory('restorative')">
+                    <div class="category-icon">🔧</div>
+                    <img src="services images/Restorative Dentistry.jpg" alt="Restorative Dentistry"
+                        class="category-card-img">
+                    <h3>Restorative Dentistry</h3>
+                    <p>Damage Repair</p>
+                </div>
+                <div class="category-card" data-target="cosmetic" onclick="showCategory('cosmetic')">
+                    <div class="category-icon">✨</div>
+                    <img src="services images/Cosmetic Dentistry.jpg" alt="Cosmetic Dentistry"
+                        class="category-card-img">
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Beauty & Smile Improvement</p>
+                </div>
+                <div class="category-card" data-target="orthodontics" onclick="showCategory('orthodontics')">
+                    <div class="category-icon">📐</div>
+                    <img src="services images/Orthodontics.jpg" alt="Orthodontics" class="category-card-img">
+                    <h3>Orthodontics</h3>
+                    <p>Straightening Teeth</p>
+                </div>
+                <div class="category-card" data-target="oral-surgery" onclick="showCategory('oral-surgery')">
+                    <div class="category-icon">🏥</div>
+                    <img src="services images/Oral Surgery.jpg" alt="Oral Surgery" class="category-card-img">
+                    <h3>Oral Surgery</h3>
+                    <p>Surgical Procedures</p>
+                </div>
+                <div class="category-card" data-target="periodontics" onclick="showCategory('periodontics')">
+                    <div class="category-icon">🦷</div>
+                    <img src="services images/Periodontics.jpg" alt="Periodontics" class="category-card-img">
+                    <h3>Periodontics</h3>
+                    <p>Gum Treatment</p>
+                </div>
+                <div class="category-card" data-target="pediatric" onclick="showCategory('pediatric')">
+                    <div class="category-icon">👶</div>
+                    <img src="services images/Pediatric Dentistry.jpg" alt="Pediatric Dentistry"
+                        class="category-card-img">
+                    <h3>Pediatric Dentistry</h3>
+                    <p>Children's Dental Care</p>
+                </div>
+                <div class="category-card" data-target="prosthodontics" onclick="showCategory('prosthodontics')">
+                    <div class="category-icon">🦴</div>
+                    <img src="services images/Prosthodontics.jpg" alt="Prosthodontics" class="category-card-img">
+                    <h3>Prosthodontics</h3>
+                    <p>Artificial Teeth</p>
+                </div>
+                <div class="category-card" data-target="endodontics" onclick="showCategory('endodontics')">
+                    <div class="category-icon">🔬</div>
+                    <img src="services images/Endodontics.jpg" alt="Endodontics" class="category-card-img">
+                    <h3>Endodontics</h3>
+                    <p>Root Canal Specialist</p>
+                </div>
+                <div class="category-card" data-target="emergency" onclick="showCategory('emergency')">
+                    <div class="category-icon">🚨</div>
+                    <img src="services images/dental emergency services.jpg" alt="Emergency Services"
+                        class="category-card-img">
+                    <h3>Emergency Services</h3>
+                    <p>Urgent Dental Care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="services-detail">
+        <div class="container" id="details-container">
+            <!-- Preventive Dentistry -->
+            <div class="service-category-section" id="preventive">
+                <h2 class="category-heading">🛡️ Preventive Dentistry </h2>
+                <p class="category-description">Prevention is better than cure. Regular checkups and cleanings keep your
+                    teeth healthy.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Dental Checkup</h4>
+                            <p>Complete oral examination to detect problems early</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Teeth Cleaning / Scaling</h4>
+                            <p>Professional cleaning to remove plaque and tartar</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Fluoride Treatment</h4>
+                            <p>Strengthens tooth enamel and prevents decay</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Sealants</h4>
+                            <p>Protective coating for teeth to prevent cavities</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>X-rays</h4>
+                            <p>Digital imaging for accurate diagnosis</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Oral Cancer Screening</h4>
+                            <p>Comprehensive screening for complete oral health</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restorative Dentistry -->
+            <div class="service-category-section" id="restorative">
+                <h2 class="category-heading">🔧 Restorative Dentistry </h2>
+                <p class="category-description">Restore damaged teeth to their natural function and appearance.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Fillings</h4>
+                            <p>Tooth-colored fillings for cavities</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Crowns</h4>
+                            <p>Caps to cover and protect damaged teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Bridges</h4>
+                            <p>Replace missing teeth with fixed prosthetics</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Dentures</h4>
+                            <p>Removable replacement for missing teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Root Canal Treatment</h4>
+                            <p>Save infected teeth from extraction</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Inlays & Onlays</h4>
+                            <p>Custom restorations for partially damaged teeth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cosmetic Dentistry -->
+            <div class="service-category-section" id="cosmetic">
+                <h2 class="category-heading">✨ Cosmetic Dentistry </h2>
+                <p class="category-description">Enhance your smile and boost your confidence with cosmetic treatments.
+                </p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Teeth Whitening</h4>
+                            <p>Professional whitening for a brighter smile</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Veneers</h4>
+                            <p>Thin shells to cover imperfections</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Smile Makeover</h4>
+                            <p>Complete smile transformation</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Bonding</h4>
+                            <p>Repair chips and gaps with composite resin</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Gum Contouring</h4>
+                            <p>Reshaping the gum line for a balanced smile</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Tooth Contouring</h4>
+                            <p>Reshaping uneven or slightly chipped teeth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Orthodontics -->
+            <div class="service-category-section" id="orthodontics">
+                <h2 class="category-heading">📐 Orthodontics </h2>
+                <p class="category-description">Straighten teeth and correct bite problems for a perfect smile.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Braces</h4>
+                            <p>Traditional metal and ceramic braces</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Invisalign / Clear Aligners</h4>
+                            <p>Invisible teeth straightening solution</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Bite Correction</h4>
+                            <p>Fix overbite, underbite, and crossbite</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Retainers</h4>
+                            <p>Maintain perfectly straight teeth after braces</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Space Maintainers</h4>
+                            <p>Keep space open for permanent teeth to erupt</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Palatal Expanders</h4>
+                            <p>Widen the upper jaw for a proper bite alignment</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Oral Surgery -->
+            <div class="service-category-section" id="oral-surgery">
+                <h2 class="category-heading">🏥 Oral Surgery</h2>
+                <p class="category-description">Surgical procedures performed by experienced oral surgeons.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Tooth Extraction</h4>
+                            <p>Safe removal of damaged or problematic teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Wisdom Tooth Removal</h4>
+                            <p>Expert extraction of wisdom teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Dental Implants</h4>
+                            <p>Permanent tooth replacement solution</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Jaw Surgery</h4>
+                            <p>Corrective jaw procedures for better function</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Bone Grafting</h4>
+                            <p>Building up jawbone strength for implants</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Sinus Lift</h4>
+                            <p>Adding bone to the upper jaw for secure implants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Periodontics -->
+            <div class="service-category-section" id="periodontics">
+                <h2 class="category-heading">🦷 Periodontics </h2>
+                <p class="category-description">Specialized treatment for gum diseases and conditions.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Gum Disease Treatment</h4>
+                            <p>Treatment for gingivitis and periodontitis</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Deep Cleaning</h4>
+                            <p>Scaling and root planing for optimal gum health</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Gum Surgery</h4>
+                            <p>Surgical treatment for advanced gum disease</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Gum Grafting</h4>
+                            <p>Treating receding gums and exposed roots</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Crown Lengthening</h4>
+                            <p>Exposing more tooth structure for restorations</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Pocket Reduction</h4>
+                            <p>Surgically treating deep, infected gum pockets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pediatric Dentistry -->
+            <div class="service-category-section" id="pediatric">
+                <h2 class="category-heading">👶 Pediatric Dentistry </h2>
+                <p class="category-description">Gentle and caring dental treatment for children.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Children's Dental Care</h4>
+                            <p>Comprehensive care for kids of all ages</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Milk Teeth Treatment</h4>
+                            <p>Care and treatment specifically for baby teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Habit Counseling</h4>
+                            <p>Help break thumb sucking and other oral habits</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Pulpotomy</h4>
+                            <p>Gentle root canal treatment for baby teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Stainless Steel Crowns</h4>
+                            <p>Protecting severely damaged baby teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Space Management</h4>
+                            <p>Monitoring and guiding proper tooth eruption</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prosthodontics -->
+            <div class="service-category-section" id="prosthodontics">
+                <h2 class="category-heading">🦴 Prosthodontics </h2>
+                <p class="category-description">Replacement of missing teeth with artificial solutions.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Complete Dentures</h4>
+                            <p>Full set of artificial teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Partial Dentures</h4>
+                            <p>Replacement for some missing teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Implant-Supported Teeth</h4>
+                            <p>Dentures secured firmly by dental implants</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Full Mouth Reconstruction</h4>
+                            <p>Comprehensive restoration of all your teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Fixed Dental Bridges</h4>
+                            <p>Permanent, non-removable replacement for missing teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Overdentures</h4>
+                            <p>Stable dentures that securely snap onto implants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Endodontics -->
+            <div class="service-category-section" id="endodontics">
+                <h2 class="category-heading">🔬 Endodontics</h2>
+                <p class="category-description">Specialized root canal treatments by experts.</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Root Canal Specialist</h4>
+                            <p>Advanced, pain-free root canal procedures</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Tooth Nerve Treatment</h4>
+                            <p>Treatment for infected or inflamed tooth nerves</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Apicoectomy</h4>
+                            <p>Surgical removal of the infected root tip</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Endodontic Retreatment</h4>
+                            <p>Fixing and saving a previously treated tooth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Cracked Tooth Treatment</h4>
+                            <p>Specialized care to save fractured or cracked teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Dental Trauma</h4>
+                            <p>Expert management of severely injured teeth and roots</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emergency Services -->
+            <div class="service-category-section emergency-section" id="emergency">
+                <h2 class="category-heading">🚨 Emergency Dental Services</h2>
+                <p class="category-description">Immediate care for dental emergencies - available 24/7!</p>
+
+                <div class="services-list">
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Sudden Tooth Pain</h4>
+                            <p>Immediate relief for severe toothaches</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Broken Tooth</h4>
+                            <p>Emergency repair for broken or chipped teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Dental Trauma</h4>
+                            <p>Treatment for knocked-out or injured teeth</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Swelling Treatment</h4>
+                            <p>Urgent care for dental infections and abscesses</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Lost Crown Repair</h4>
+                            <p>Re-cementing or replacing lost crowns immediately</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-item-icon">✓</div>
+                        <div class="service-item-content">
+                            <h4>Knocked-Out Tooth</h4>
+                            <p>Emergency replantation of avulsed teeth</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="emergency-cta">
+                    <h3>Need Emergency Care?</h3>
+                    <p>Call us now for immediate assistance!</p>
+                    <a href="tel:+17135551234" class="btn btn-primary btn-lg">Call Emergency Line: (713) 555-1234</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 5C11.716 5 5 11.716 5 20C5 28.284 11.716 35 20 35C28.284 35 35 28.284 35 20C35 11.716 28.284 5 20 5Z"
+                                fill="#4A90E2" />
+                            <path
+                                d="M20 12C15.582 12 12 15.582 12 20C12 24.418 15.582 28 20 28C24.418 28 28 24.418 28 20C28 15.582 24.418 12 20 12Z"
+                                fill="white" />
+                        </svg>
+                        <span>Texas Dental Services</span>
+                    </div>
+                    <p class="footer-description">Professional, affordable, and patient-focused dental care in Houston,
+                        Texas.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Teeth Cleaning</a></li>
+                        <li><a href="services.html">Teeth Whitening</a></li>
+                        <li><a href="services.html">Dental Implants</a></li>
+                        <li><a href="services.html">Braces</a></li>
+                        <li><a href="services.html">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>(713) 555-1234</li>
+                        <li>info@texasdentalservices.com</li>
+                        <li>1234 Main Street<br>Houston, TX 77002</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Texas Dental Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+    <script>
+        function showCategory(id) {
+            // Remove active class from all cards
+            document.querySelectorAll('.category-card').forEach(function (card) {
+                card.classList.remove('active');
+            });
+
+            // Add active class to clicked card
+            var activeCard = document.querySelector('.category-card[data-target="' + id + '"]');
+            if (activeCard) {
+                activeCard.classList.add('active');
+            }
+
+            // Scroll down to the details section smoothly
+            var targetSection = document.getElementById(id);
+            if (targetSection) {
+                const offsetTop = targetSection.offsetTop - 80;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>
